@@ -4,7 +4,7 @@ var CatStore = ((oldCatStore) => {
 		//combine arrays
 		cats.forEach((cat) =>{
 			owners.forEach((owner) =>{
-				if(catownerId === owner.id){
+				if(cat.ownerId === owner.id){
 					cat.owner = owner.name;
 			}
 		});
