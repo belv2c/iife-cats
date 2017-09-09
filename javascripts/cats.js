@@ -1,1 +1,6 @@
-console.log("cats.js");
+/*var CatStore = ((oldCatStore) => {
+
+
+
+return oldCatStore;
+})(CatStore || }{});*/
